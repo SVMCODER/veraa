@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media Upload</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-aECmBzFv7X6w8Bj/g5FgG9yifriF5E2I09k3gV2vKv0zL6SqMIG6/c7Q/Z9NZYvWNYW84v1plG6L6XmbntI/+g==" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    
+      <div class="head"><h3> VERA</h3>
+        
+        <h3 class="right" >
+          
+      </div>
+      <br><br><br> <br>
+      <div align="center" class="all">
+        
+      <form id="uploadForm">
+        <label for="fileInput" id="plusButton">
+          <i class="bx bx-plus"></i>
+        </label>
+        <input type="file" id="fileInput">
+<button type="submit">Upload</button>
+    </form>
+    <div id="imageContainer"></div>
+      </div>
+
+    <br><br><br><br><br>
+    <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="JS/app.js"></script>
+</body>
+</html>
